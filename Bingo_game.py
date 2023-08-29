@@ -10,7 +10,7 @@ def play_bingo1(card1):
         num = randrange(1, 75)
         for key in card1:
             if num in card1[key]:
-                card1[key][card1[key].index(num)] = 0    
+                card1[key][card1[key].index(num)] = 0   
     return card1
 def play_bingo2(card2):
     '''This function was plays the game and returns the card wich ones win'''
@@ -18,7 +18,7 @@ def play_bingo2(card2):
         num = randrange(1, 75)
         for key in card2:
             if num in card2[key]:
-                card2[key][card2[key].index(num)] = 0    
+                card2[key][card2[key].index(num)] = 0   
     return card2
 def play_bingo3(card3):
     '''This function was plays the game and returns the card wich ones win'''
@@ -26,7 +26,7 @@ def play_bingo3(card3):
         num = randrange(1, 75)
         for key in card3:
             if num in card3[key]:
-                card3[key][card3[key].index(num)] = 0    
+                card3[key][card3[key].index(num)] = 0   
     return card3
 
 
