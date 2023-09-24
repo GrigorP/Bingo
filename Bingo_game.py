@@ -30,11 +30,13 @@ def play_bingo3(card3):
     return card3
 
 
-win_card1 = play_bingo1(card1)
-win_card2 = play_bingo1(card2)
-win_card3 = play_bingo1(card3)
-show_cards(win_card1, win_card2, win_card3)
 
+
+if __name__ == "__main__":
+    win_card1 = play_bingo1(card1)
+    win_card2 = play_bingo1(card2)
+    win_card3 = play_bingo1(card3)
+    show_cards(win_card1, win_card2, win_card3)
 
 
 
